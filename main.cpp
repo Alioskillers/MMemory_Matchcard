@@ -134,7 +134,7 @@ void Player::setScore(int score) {
     this->score=score;
 }
 
-Game::Game(Player p1, Player p2) {}
+Game::Game(string p1Name, string p2Name) {}
 Game::~Game() {}
 
 
@@ -158,7 +158,12 @@ void Game::initializeGame() {
 }
 
 int main() {
-    Game game("Ali","Marawan");
+    string p1Name,p2Name;
+    cout<<"Enter player 1 name: ";
+    cin>>p1Name;
+    cout<<"Enter player 2 name: ";
+    cin>>p2Name;
+    Game game(p1Name,p2Name);
     game.initializeGame();
     return 0;
 }

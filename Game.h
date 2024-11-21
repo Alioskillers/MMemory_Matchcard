@@ -9,7 +9,7 @@ private:
     Player p1;
     Player p2;
     public:
-    Game(Player p1, Player p2);
+    Game(string p1Name, string p2Name);
     ~Game();
     void initializeGame();
 
