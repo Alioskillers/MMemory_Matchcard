@@ -1,0 +1,3 @@
+/Users/ali/Desktop/MMemory Matchcard/cmake-build-debug/CMakeFiles/MMemory_Matchcard.dir
+/Users/ali/Desktop/MMemory Matchcard/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/ali/Desktop/MMemory Matchcard/cmake-build-debug/CMakeFiles/rebuild_cache.dir
