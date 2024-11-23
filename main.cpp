@@ -84,7 +84,12 @@ void Deck::shuffle() {
 void Deck::displayGrid() {
     int count=0;
     for(int i=0;i<numOfCards;i++) {
-        cards[i]->display();
+        if (cards[i]->getIsFaceUp()==true) {
+            cout<<cards[i]->getCardNumber();
+        }
+        else {
+            cout<<"*";
+        }
         cout<<" ";
         if(++count %4==0) {
             cout<<endl;

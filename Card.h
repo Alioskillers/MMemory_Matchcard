@@ -12,10 +12,11 @@ public:
     Card();
     Card(int cardNumber, bool isFaceUp);
     virtual ~Card();
+    virtual void display();
     void setCardNumber(int cardNumber);
     int getCardNumber();
     void setIsFaceUp(bool isFaceUp);
     bool getIsFaceUp();
-    virtual void display();
+
 };
 #endif //CARD_H
